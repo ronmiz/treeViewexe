@@ -1,0 +1,5 @@
+<ng-container *ngIf="nodes">
+  <div *ngFor="let node of nodes; let i = index; trackBy: trackByFn">
+    <app-tree-node [node]="node" [level]="level"></app-tree-node>
+  </div>
+</ng-container>

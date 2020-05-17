@@ -1,0 +1,52 @@
+ul {
+  list-style-type: none;
+}
+.db:before {
+  cursor: pointer;
+  content: "\f1c0";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: blue;
+}
+.connection:before {
+  content: "\f233";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: darkblue;
+}
+.schema:before {
+  content: "\f1ac";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: rgb(255, 0, 128);
+}
+.tbl:before {
+  content: "\f0ce";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: rgb(255, 102, 0);
+}
+.colum:before {
+  content: "\f0db";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: rgb(9, 216, 9);
+}
+.node-poiner {
+  cursor: pointer;
+}
+.node-poiner:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}

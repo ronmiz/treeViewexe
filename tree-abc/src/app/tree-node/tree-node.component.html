@@ -1,0 +1,16 @@
+<div style="margin-bottom: 5px;">
+  <span *ngFor="let s of level.split(',')"
+    >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |</span
+  >
+  <span
+    *ngIf="node.children"
+    style="cursor: pointer;"
+    (click)="expand = !expand"
+    >- {{ node.name }}</span
+  >
+</div>
+<div *ngIf="expand">
+  <ng-container *ngIf="node.children">
+    <app-tree [nodes]="node.children" [level]="calculateLevel()"></app-tree>
+  </ng-container>
+</div>

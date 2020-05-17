@@ -1,0 +1,29 @@
+<!-- <ul>
+  <li *ngFor="let connection of connections" class="connection">
+    <span (click)="chackAcssec(connection.can_acssec)">{{
+      connection.name
+    }}</span>
+    <ul *ngIf="connection.can_acssec">
+      <li *ngFor="let database of connection.databases">
+        <span class="db" *ngIf="selected">{{ database.name }} </span>
+        <ul>
+          <li *ngFor="let schema of database.schemas">
+            <span class="schma">{{ schema.name }}</span>
+            <ul>
+              <li *ngFor="let table of schema.tables">
+                <span class="tbl">{{ table.name }}</span>
+                <ul>
+                  <li *ngFor="let columne of table.columns">
+                    <span class="columne">{{ columne.name }}</span>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul> -->
+
+<app-treeview></app-treeview>

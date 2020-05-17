@@ -1,0 +1,209 @@
+{
+  "connections": {
+    "connection": [
+      {
+        "name": "conectin01",
+        "can_acssec": false,
+        "databases": [
+          {
+            "name": "db1",
+            "schemas": [
+              {
+                "name": "schema1",
+                "tables": [
+                  {
+                    "name": "tbl1",
+                    "columns": [
+                      { "name": "colum1" },
+                      { "name": "colum2" },
+                      { "name": "colum3" },
+                      { "name": "colum4" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "schema2",
+                "tables": [
+                  {
+                    "name": "tbl1",
+                    "columns": [
+                      { "name": "colum1" },
+                      { "name": "colum2" },
+                      { "name": "colum3" },
+                      { "name": "colum4" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "db2",
+            "schemas": [
+              {
+                "name": "schema2",
+                "tables": [
+                  {
+                    "name": "tbl2",
+                    "columns": [
+                      { "name": "colum1" },
+                      { "name": "colum2" },
+                      { "name": "colum3" },
+                      { "name": "colum4" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "db3",
+            "schemas": [
+              {
+                "name": "schema3",
+                "tables": [
+                  {
+                    "name": "tbl3",
+                    "columns": [
+                      { "name": "colum1" },
+                      { "name": "colum2" },
+                      { "name": "colum3" },
+                      { "name": "colum4" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "conectin02",
+        "can_acssec": true,
+        "databases": [
+          {
+            "name": "db1",
+            "schemas": [
+              {
+                "name": "schema1",
+                "tables": [
+                  {
+                    "name": "tbl1",
+                    "columns": [
+                      { "name": "colum1" },
+                      { "name": "colum2" },
+                      { "name": "colum3" },
+                      { "name": "colum4" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "db2",
+            "schemas": [
+              {
+                "name": "schema2",
+                "tables": [
+                  {
+                    "name": "tbl2",
+                    "columns": [
+                      { "name": "colum1" },
+                      { "name": "colum2" },
+                      { "name": "colum3" },
+                      { "name": "colum4" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "db3",
+            "schemas": [
+              {
+                "name": "schema3",
+                "tables": [
+                  {
+                    "name": "tbl3",
+                    "columns": [
+                      { "name": "colum1" },
+                      { "name": "colum2" },
+                      { "name": "colum3" },
+                      { "name": "colum4" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "conectin03",
+        "can_acssec": true,
+        "databases": [
+          {
+            "name": "db1",
+            "schemas": [
+              {
+                "name": "schema1",
+                "tables": [
+                  {
+                    "name": "tbl1",
+                    "columns": [
+                      { "name": "colum1" },
+                      { "name": "colum2" },
+                      { "name": "colum3" },
+                      { "name": "colum4" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "db2",
+            "schemas": [
+              {
+                "name": "schema2",
+                "tables": [
+                  {
+                    "name": "tbl2",
+                    "columns": [
+                      { "name": "colum1" },
+                      { "name": "colum2" },
+                      { "name": "colum3" },
+                      { "name": "colum4" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "db3",
+            "schemas": [
+              {
+                "name": "schema3",
+                "tables": [
+                  {
+                    "name": "tbl3",
+                    "columns": [
+                      { "name": "colum1" },
+                      { "name": "colum2" },
+                      { "name": "colum3" },
+                      { "name": "colum4" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
